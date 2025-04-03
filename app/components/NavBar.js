@@ -32,7 +32,7 @@ export default function Navbar() {
   return (
     <nav className="fixed top-0 left-0 w-full bg-gray-900 text-white shadow-md py-4 px-6 flex justify-between items-center z-50">
       {/* Logo */}
-      <span className="text-2xl font-extrabold cursor-pointer text-blue-400" onClick={() => router.push("/")}>
+      <span className="text-2xl font-extrabold cursor-pointer text-blue-400" onClick={() => router.push("/add-student")}>
         DevConnect
       </span>
 
