@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 import supabase from "@/lib/supabase";
-import Navbar from "../components/NavBar";
+import Navbar from "./components/NavBar";
 
 export default function StudentList() {
   const [students, setStudents] = useState([]);
